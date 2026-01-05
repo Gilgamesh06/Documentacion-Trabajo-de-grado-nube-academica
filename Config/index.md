@@ -1,4 +1,4 @@
-# Indice para documentación sobre DNS
+# Indice para documentación sobre creación de cluster microk8s con IPs dinamicas
 
 * **Configuracion de kubernetes con IPs Dinamicas**
 
