@@ -19,7 +19,7 @@
 
         * Ubuntu 24.04
         * Docker instalado
-        * kubectl instalada
+        * kubectl instalado
     
     2. **Instalar Docker**
 
