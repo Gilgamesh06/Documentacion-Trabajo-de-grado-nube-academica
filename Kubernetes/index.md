@@ -1,7 +1,6 @@
 # Indice de documentacion: Configuracion de cluster con Kind
 
 1. [**Kind**](kind.md)
-    1. [**Docker**]()
     2. [**Control Plane**](./control%20plane.md)
         1. [**kube-apiserver**](./kube-apiserver.md)
         2. [**etcd**](./etcd.md)
