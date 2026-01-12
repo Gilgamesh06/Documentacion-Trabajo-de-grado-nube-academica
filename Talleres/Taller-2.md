@@ -31,7 +31,7 @@
         * **Permitir usar Docker sin sudo**
 
             ```bash
-            sudo usarmod -aG docker $USER
+            sudo usermod -aG docker $USER
             newgrp docker
             ```
 
@@ -227,23 +227,23 @@
         apiVersion: apps/v1
         kind: Deployment
         metadata:
-        name: backend-a
-        namespace: app-secure
+            name: backend-a
+            namespace: app-secure
         spec:
-        replicas: 1
-        selector:
-            matchLabels:
-            app: backend-a
+            replicas: 1
+            selector:
+                matchLabels:
+                    app: backend-a
         template:
             metadata:
-            labels:
-                app: backend-a
+                labels:
+                    app: backend-a
             spec:
-            containers:
-            - name: backend
-                image: gilgamesh06/test:1.0
-                ports:
-                - containerPort: 8000
+                containers:
+                - name: backend
+                  image: gilgamesh06/test:1.0
+                  ports:
+                  - containerPort: 8000
         ```
         ```bash
         kubectl apply -f backend-a.yaml
@@ -255,23 +255,23 @@
         apiVersion: apps/v1
         kind: Deployment
         metadata:
-        name: backend-b
-        namespace: app-secure
+            name: backend-b
+            namespace: app-secure
         spec:
-        replicas: 1
-        selector:
-            matchLabels:
-            app: backend-b
+            replicas: 1
+            selector:
+                matchLabels:
+                    app: backend-b
         template:
             metadata:
-            labels:
-                app: backend-b
+                labels:
+                    app: backend-b
             spec:
-            containers:
-            - name: backend
-                image: gilgamesh06/test:1.0
-                ports:
-                - containerPort: 8000
+                containers:
+                - name: backend
+                  image: gilgamesh06/test:1.0
+                  ports:
+                  - containerPort: 8000
         ```
         ```bash
         kubectl apply -f backend-b.yaml

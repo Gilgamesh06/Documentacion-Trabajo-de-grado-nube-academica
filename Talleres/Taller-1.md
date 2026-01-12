@@ -199,7 +199,7 @@
 
     ## Parte 4: Instalar NGINX Ingress Controller
 
-    1. **Instalar usnado manifiesto oficial**
+    1. **Instalar usando manifiesto oficial**
 
         ```bash
         kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.2/deploy/static/provider/kind/deploy.yaml
@@ -343,20 +343,20 @@
                 apiVersion: networking.k8s.io/v1
                 kind: Ingress
                 metadata:
-                name: demo-ingress
+                    name: demo-ingress
                 spec:
-                ingressClassName: nginx
-                rules:
-                - host: demo.local
-                    http:
-                    paths:
-                    - path: /
+                    ingressClassName: nginx
+                    rules:
+                    - host: demo.local
+                      http:
+                      paths:
+                      - path: /
                         pathType: Prefix
                         backend:
-                        service:
-                            name: demo
-                            port:
-                            number: 80
+                            service:
+                                name: demo
+                                port:
+                                    number: 80
                 ```
                 * Crear Ingress
 
