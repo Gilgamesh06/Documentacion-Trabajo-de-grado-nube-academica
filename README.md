@@ -5,6 +5,7 @@
 3. [**Kubernetes**](./Kubernetes/index.md)
 4. [**Linux**](./Linux/index.md)
 5. [**Redes**](./Redes/index.md)
+6. [**DNS**](./DNS/index.md)
 
     ## Talleres:
 
