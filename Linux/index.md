@@ -1,3 +1,3 @@
 # Indice para documentación sobre Linux
 
-1. [**Volumenes**](./volumenes.md)
+1. [**Volumenes**](Volumenes/volumenes.md)
