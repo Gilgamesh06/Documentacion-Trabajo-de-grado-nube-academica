@@ -1,0 +1,16 @@
+# Indice sobre DNS
+
+1. [**DNS**](dns.md)
+2. [**Bind9**](Bind9/bind9.md)
+    1. [**named**](Bind9/Named/named.md)
+    2. [**named.conf**](Bind9/NamedConf/named.conf.md)
+        1. [**views**](Bind9/NamedConf/Views/views.md)
+    3. [**named.conf.options**](Bind9/NamedConfOptions/options.md)
+        1. [**ACL**](Bind9/NamedConfOptions/Acl/acl.md)
+        2. [**Routing**](Bind9/NamedConfOptions/Routing/routing.md)
+    4. [**named.conf.local**](Bind9/NamedConfLocal/local.md)
+    5. [**Zone Files**](Bind9/ZoneFiles/zone_files.md)
+        1. [**ns1**](Bind9/ZoneFiles/Ns1/ns1.md)
+        2. [**subdominios**](Bind9/ZoneFiles/Subdominios/subdominios.md)
+        3. [**Automatizacion**](Bind9/ZoneFiles/Automatizacion/automatizacion.md)
+    6. [**Ejemplo Explicativo**](Bind9/Ejemplo/ejemplo_explicativo.md)
